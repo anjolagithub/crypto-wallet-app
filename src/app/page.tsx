@@ -1,8 +1,7 @@
-// app/page.tsx
 'use client';
 
 import { useState } from 'react';
-import { useWalletContext } from './context/WalletContext';
+import { useWalletContext } from './contexts/WalletContext';
 import Link from 'next/link';
 
 export default function Home() {

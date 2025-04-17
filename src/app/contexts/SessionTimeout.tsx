@@ -1,8 +1,7 @@
-// app/components/SessionTimeout.tsx
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useWalletContext } from '../context/WalletContext';
+import { useWalletContext } from '../contexts/WalletContext';
 import { useRouter } from 'next/navigation';
 
 // Session timeout in milliseconds (5 minutes)

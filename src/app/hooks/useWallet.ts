@@ -1,9 +1,8 @@
-// app/hooks/useWallet.ts
 'use client';
 
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { useState } from 'react';
-import { walletService } from '../services/walletService';
+import { walletService } from '../services/walletServices';
 
 // Interface for our wallet state
 interface WalletState {

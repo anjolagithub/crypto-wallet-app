@@ -1,8 +1,7 @@
-// app/hooks/useMessageSigning.ts
 'use client';
 
 import { useMutation } from '@tanstack/react-query';
-import { useWalletContext } from '../context/WalletContext';
+import { useWalletContext } from '../contexts/WalletContext';
 
 interface SignMessageParams {
   message: string;

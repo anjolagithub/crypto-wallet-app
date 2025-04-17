@@ -1,8 +1,8 @@
 'use client';
 
 import { useQueries, useQuery } from '@tanstack/react-query';
-import { useWalletContext } from '../context/WalletContext';
-import { fetchBalance, fetchTokenPrices, Balance, TokenPrice } from '../services/priceService';
+import { useWalletContext } from '../contexts/WalletContext';
+import { fetchBalance, fetchTokenPrices, Balance, TokenPrice } from '../services/priceServices';
 
 export function useTokenBalances() {
   const { addresses, selectedChain } = useWalletContext();

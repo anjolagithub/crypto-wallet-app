@@ -1,8 +1,7 @@
-// app/hooks/useBalances.ts
 'use client';
 
 import { useQuery } from '@tanstack/react-query';
-import { useWalletContext } from '../context/WalletContext';
+import { useWalletContext } from '../contexts/WalletContext';
 
 // Mock service for fetching balances - in a real app, this would connect to blockchain APIs
 const fetchBalance = async (address: string, chain: string): Promise<string> => {

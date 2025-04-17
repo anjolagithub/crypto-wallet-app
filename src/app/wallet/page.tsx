@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { useWalletContext, SUPPORTED_CHAINS, ChainCode } from '../context/WalletContext';
+import { useWalletContext, SUPPORTED_CHAINS, ChainCode } from '../contexts/WalletContext';
 import { useTokenBalances } from '../hooks/useTokenBalances';
 import { MessageSigning } from '../components/MessageSigning';
 import QRCode from 'qrcode.react'; 

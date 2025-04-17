@@ -1,4 +1,3 @@
-// app/components/MessageSigning.tsx
 'use client';
 
 import { useState } from 'react';

@@ -1,7 +1,7 @@
 'use client';
 
 import { ErrorBoundary } from '../components/ErrorBoundary';
-import { SessionTimeout } from '../components/SessionTimeout';
+import { SessionTimeout } from '../contexts/SessionTimeout';
 
 export default function WalletLayout({
   children,
